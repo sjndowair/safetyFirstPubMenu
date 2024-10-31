@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/safetyFirstPubMenu/static/css/main.c00a0652.css",
+    "main.js": "/safetyFirstPubMenu/static/js/main.19b12a50.js",
+    "static/js/453.523f2af0.chunk.js": "/safetyFirstPubMenu/static/js/453.523f2af0.chunk.js",
+    "static/media/logo22.png": "/safetyFirstPubMenu/static/media/logo22.b84cfcc94fa3e6f9fe36.png",
+    "index.html": "/safetyFirstPubMenu/index.html",
+    "main.c00a0652.css.map": "/safetyFirstPubMenu/static/css/main.c00a0652.css.map",
+    "main.19b12a50.js.map": "/safetyFirstPubMenu/static/js/main.19b12a50.js.map",
+    "453.523f2af0.chunk.js.map": "/safetyFirstPubMenu/static/js/453.523f2af0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c00a0652.css",
+    "static/js/main.19b12a50.js"
+  ]
+}
