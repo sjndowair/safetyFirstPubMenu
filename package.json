@@ -30,6 +30,7 @@
       "react-app/jest"
     ]
   },
+  "homepage": "https://github.com/sjndowair/safetyFirstPubMenu.git",
   "browserslist": {
     "production": [
       ">0.2%",
