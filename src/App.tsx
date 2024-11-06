@@ -2,6 +2,7 @@ import { useState } from "react";
 import { ChevronDown, ChevronUp } from "lucide-react";
 import logo from "../src/asset/logo22.png";
 import { menuData } from "./data/menu-data";
+import image from "../src/asset/menu1.jpeg";
 
 function App() {
   const [openSections, setOpenSections] = useState<Set<string>>(
@@ -89,7 +90,16 @@ function App() {
                       key={item.name}
                       className="bg-white bg-opacity-10 p-4 rounded-lg hover:bg-opacity-20 transition-colors"
                     >
-                      <div className="flex justify-between items-start">
+                      <div className="flex justify-start gap-1 flex-col items-start w-full">
+                        {item.img && (
+                          <p className="flex items-center justify-center pb-5 ">
+                            <img
+                              className="w-full max-w-[700px] h-[auto] rounded-[1.5rem] aspect-square shadow-[0_35px_30px_-15px_rgba(0,0,0,1)]"
+                              src={item.img}
+                              alt="asd"
+                            />
+                          </p>
+                        )}
                         <h3 className="text-lg font-semibold">{item.name}</h3>
                         <span className="text-lg font-bold">{item.price}</span>
                       </div>

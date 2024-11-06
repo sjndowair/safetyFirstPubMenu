@@ -14,12 +14,38 @@ import {
   Fish,
   CookingPot,
 } from "lucide-react";
+import djji from "../asset/djji.jpeg";
+import mapadubu from "../asset/mapadubu.jpeg";
+import sosaji from "../asset/sosaji.jpeg";
+import jjim from "../asset/jjim.jpeg";
+import chickenFeet from "../asset/chikentang.jpeg";
+import eggTang from "../asset/eggtang.jpeg";
+import friedModum from "../asset/friedModum.jpeg";
+import tomato from "../asset/sweetTomato.jpeg";
+import gillButter from "../asset/grilbetter.jpeg";
+import gochugang from "../asset/gochugangbulgogi.jpeg";
+import crill from "../asset/crill.jpeg";
+import boil from "../asset/boilling.jpeg";
+import sulguk from "../asset/sulguk.jpeg";
+import chiken from "../asset/chicken.jpeg";
+import buche from "../asset/buchu.jpeg";
+import boilTwo from "../asset/boilTwo.jpeg";
+import chadolsukju from "../asset/chadolsukju.jpeg";
+import kimchibe from "../asset/dongggaseKimchi.jpeg";
+import skin from "../asset/skin.jpeg";
+import butterCrill from "../asset/betterCrill.jpeg";
+import kimchiudong from "../asset/kimchiudong.jpeg";
+import kimchijaeuk from "../asset/kimchijaeuk.jpeg";
+import breadd from "../asset/bread.png";
+
 interface MenuSection {
+  img?: any;
   title: string;
   icon: React.ReactNode;
   items: MenuItem[];
 }
 interface MenuItem {
+  img?: any;
   name: string;
   description: string;
   price: string;
@@ -31,6 +57,7 @@ export const menuData: MenuSection[] = [
     icon: <Crown className="w-6 h-6 text-yellow-300" />,
     items: [
       {
+        img: sulguk,
         name: "술국",
         description: "술이 들어간다 술~ 술술술~",
         price: "15,900",
@@ -46,11 +73,13 @@ export const menuData: MenuSection[] = [
         price: "13,900",
       },
       {
+        img: sosaji,
         name: "모둠소세지",
         description: "우리아이 술안주, 우리 남편 영양간식.... 라고 할뻔~",
         price: "13,900",
       },
       {
+        img: gochugang,
         name: "고추장불고기",
         description:
           "장트리오랑 고기를 싫어할수 있음? (고기 재워둔거 깨우러 감)",
@@ -63,6 +92,7 @@ export const menuData: MenuSection[] = [
         price: "12,000",
       },
       {
+        img: kimchiudong,
         name: "김치우동",
         description: "먹다보니 해장하려다가 해장술이 되어버렸네..?",
         price: "11,900",
@@ -74,18 +104,21 @@ export const menuData: MenuSection[] = [
     icon: <Utensils className="w-6 h-6" />,
     items: [
       {
+        img: boil,
         name: "보일링 크랩",
         description:
           "랍스타, 게, 새우 등의 갑각류를 옥수수, 감자 등과 소스에 버무려서 쪄내는 케이준요리. 미국식 해물찜, 케이준 요리의 특성상 매콤 짭짭한 양념이 잔뜩 들어가 자극적인 맛을 내기 때문에 매운 해물찜을 즐기는 한국인의 입맛에도 맞는편이다.(주문즉시 조리시작으로 인해 30분간 소요됩니다, 다만 기다릴만한 맛임)",
         price: "69,900",
       },
       {
+        img: boil,
         name: "홍게 보일링 새우",
         description:
           " 게, 새우 등의 갑각류를 옥수수, 감자 등과 소스에 버무려서 쪄내는 케이준요리. 미국식 해물찜, 케이준 요리의 특성상 매콤 짭짭한 양념이 잔뜩 들어가 자극적인 맛을 내기 때문에 매운 해물찜을 즐기는 한국인의 입맛에도 맞는편이다.(주문즉시 조리시작으로 인해 30분간 소요됩니다, 다만 기다릴만한 맛임)",
         price: "49,900",
       },
       {
+        img: boilTwo,
         name: "보일링 새우",
         description:
           "새우, 꽃게, 조개 등의 갑각류를 옥수수, 감자 등과 소스에 버무려서 쪄내는 케이준요리. 미국식 해물찜, 케이준 요리의 특성상 매콤 짭짭한 양념이 잔뜩 들어가 자극적인 맛을 내기 때문에 매운 해물찜을 즐기는 한국인의 입맛에도 맞는편이다.(주문즉시 조리시작으로 인해 30분간 소요됩니다, 다만 기다릴만한 맛임)",
@@ -98,24 +131,28 @@ export const menuData: MenuSection[] = [
     icon: <CookingPot className="w-6 h-6" />,
     items: [
       {
+        img: jjim,
         name: "바지락 조개 술찜",
         description:
           "이거만 6개월 머리싸매서 만듬 술로 만드는거라 주인장 취한다........ 스파게티 사리추가하면 다른거 못먹음",
         price: "18,900",
       },
       {
+        img: kimchibe,
         name: "돈가스김치나베",
         description:
           "우선 다른곳처럼 조그마한 돈가스 줄빠엔 안준다(매니저 면상만함)",
         price: "18,900",
       },
       {
+        img: eggTang,
         name: "순두부계란탕",
         description:
           "맵찔이면 이거 시켜라 이거아님 너 먹을거 없다.(주인장은 매운거 ㅈㄴ좋아함)",
         price: "15,900",
       },
       {
+        img: djji,
         name: "차돌된장찌개",
         description: "주변고깃집보다 맛없으면 뺨때려도된다(대신 홀매니저가ㅎ)",
         price: "14,900",
@@ -131,6 +168,7 @@ export const menuData: MenuSection[] = [
         price: "13,900",
       },
       {
+        img: sulguk,
         name: "술국",
         description: "술이 들어간다 술~ 술술술~",
         price: "15,900",
@@ -142,18 +180,21 @@ export const menuData: MenuSection[] = [
     icon: <Fish className="w-6 h-6" />,
     items: [
       {
+        img: gillButter,
         name: "전복관자버터구이",
         description:
           "주인장이 전복이랑 맞짱까야해서 오래걸린다(이기고 돌아올게)",
         price: "24,900",
       },
       {
+        img: crill,
         name: "딱새우회",
         description:
           "제주도에서 오는거마냥 맞짱떠야해서 오래걸릴수있음(손질 ㅗㅜㅑ..)",
         price: "23,900",
       },
       {
+        img: butterCrill,
         name: "새우버터구이",
         description:
           "피씨방에 라면이있다가 여기엔 새우버터구이가있다(파도효과 냄새주의)",
@@ -178,39 +219,46 @@ export const menuData: MenuSection[] = [
         price: "16,900",
       },
       {
+        img: mapadubu,
         name: "마라마파두부",
         description:
           "우리 매니저는 이걸 1일 3회를 처먹더라...(월급에서 까던가 해야지)",
         price: "15,900",
       },
       {
+        img: chickenFeet,
         name: "국물뼈닭발",
         description:
           "원래는 ㅎㅅ닭발을 하고 싶었다는.... 나는 이이야기를 무척 좋아한다.",
         price: "18,900",
       },
       {
+        img: chadolsukju,
         name: "차돌숙주볶음",
         description: "차돌이랑 숙주를 싫어할수가 있나...?",
         price: "15,900",
       },
       {
+        img: kimchijaeuk,
         name: "김치제육",
         description: "매니저가 먹고싶다 지랄해서 넣어준 메뉴",
         price: "15,900",
       },
       {
+        img: skin,
         name: "껍데기",
         description:
           "맵다.. 맵다고했다... 진짜맵다고했다... 갑자기 매운냄새로 재체기하면 주인장이 만드는거다",
         price: "12,900",
       },
       {
+        img: gochugang,
         name: "고추장불고기",
         description: "장트리오랑 고기를 싫어할수 있음?(고기 재워둔거 깨우러감)",
         price: "14,900",
       },
       {
+        img: sosaji,
         name: "모둠소세지",
         description: "우리아이 술안주, 우리남편 영양간식.... 라고 할뻔~",
         price: "13,900",
@@ -223,11 +271,13 @@ export const menuData: MenuSection[] = [
     icon: <DrumstickIcon className="w-6 h-6" />,
     items: [
       {
+        img: friedModum,
         name: "안전제일 튀김플래터",
         description: "너가 뭘 좋아할지 몰라서 6가지이상 다넣어봤어",
         price: "21,900",
       },
       {
+        img: chiken,
         name: "옛날통닭",
         description:
           "그시절 아버지가 사오던 통닭 + 양배추사라다(얘 허벅지 끝내주더라)",
@@ -263,6 +313,7 @@ export const menuData: MenuSection[] = [
         price: "24,900",
       },
       {
+        img: tomato,
         name: "설탕토마토",
         description:
           "기념일인데 꽃준비못한 남자들은 몰래 이거 시켜줘라 내가 대신 꽃 만들어 줌",
@@ -305,6 +356,7 @@ export const menuData: MenuSection[] = [
         price: "7,900",
       },
       {
+        img: breadd,
         name: "벌스데이브래드",
         description:
           "햅삐빠스데이~ 생일이면 시켜봐!(혹시 알아 주인장 기분좋으면 공짜일지도?)",
