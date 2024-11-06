@@ -27,7 +27,7 @@ function App() {
           <h1 className="pt-10 text-5xl font-bold mb-4 relative z-10 bg-clip-text  bg-gradient-to-br from-blue-700 fill-black to-pink-500 color-tr">
             안전제일주점
           </h1>
-          <h1 className="text-5xl font-bold mb-4 relative z-10 bg-gradient-to-br from-blue-700 fill-black to-pink-500 color-tr">
+          <h1 className="text-[1.25rem] font-bold mb-4 relative z-10 bg-gradient-to-br from-blue-700 fill-black to-pink-500 color-tr">
             Safety First Pub
           </h1>
           <img
@@ -35,8 +35,8 @@ function App() {
             src={logo}
             alt="뽈ㄹ로로롤"
           />
-          <div className="">
-            <div className="text text-[1.5rem] bg-clip-text bg-gradient-to-br from-blue-700 fill-black to-pink-500 color-tr font-bold">
+          <div className="color-tr">
+            <div className="text text-[1.25rem] bg-clip-text bg-gradient-to-br from-blue-700 fill-black to-pink-500 color-tr font-bold">
               안녕하세요 안전제일주점입니다.
               <br />
               <div className="pt-8 flex flex-col gap-1 ">
