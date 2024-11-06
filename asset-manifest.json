@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/safetyFirstPubMenu/static/css/main.27fe58f6.css",
-    "main.js": "/safetyFirstPubMenu/static/js/main.5e848f1e.js",
+    "main.css": "/safetyFirstPubMenu/static/css/main.b02ff2fe.css",
+    "main.js": "/safetyFirstPubMenu/static/js/main.8c458150.js",
     "static/js/453.523f2af0.chunk.js": "/safetyFirstPubMenu/static/js/453.523f2af0.chunk.js",
     "static/media/sosaji.jpeg": "/safetyFirstPubMenu/static/media/sosaji.28c6967dd7af794808e9.jpeg",
     "static/media/boilTwo.jpeg": "/safetyFirstPubMenu/static/media/boilTwo.00770d9633da3e4ccfe4.jpeg",
@@ -27,12 +27,12 @@
     "static/media/kimchiudong.jpeg": "/safetyFirstPubMenu/static/media/kimchiudong.e6755dffc5f2016d9d23.jpeg",
     "static/media/crill.jpeg": "/safetyFirstPubMenu/static/media/crill.a5799f36925d39acdeff.jpeg",
     "index.html": "/safetyFirstPubMenu/index.html",
-    "main.27fe58f6.css.map": "/safetyFirstPubMenu/static/css/main.27fe58f6.css.map",
-    "main.5e848f1e.js.map": "/safetyFirstPubMenu/static/js/main.5e848f1e.js.map",
+    "main.b02ff2fe.css.map": "/safetyFirstPubMenu/static/css/main.b02ff2fe.css.map",
+    "main.8c458150.js.map": "/safetyFirstPubMenu/static/js/main.8c458150.js.map",
     "453.523f2af0.chunk.js.map": "/safetyFirstPubMenu/static/js/453.523f2af0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.27fe58f6.css",
-    "static/js/main.5e848f1e.js"
+    "static/css/main.b02ff2fe.css",
+    "static/js/main.8c458150.js"
   ]
 }
