@@ -1,16 +1,38 @@
 {
   "files": {
-    "main.css": "/safetyFirstPubMenu/static/css/main.e945ba00.css",
-    "main.js": "/safetyFirstPubMenu/static/js/main.c7a89aec.js",
+    "main.css": "/safetyFirstPubMenu/static/css/main.a409a3ca.css",
+    "main.js": "/safetyFirstPubMenu/static/js/main.cfc07d38.js",
     "static/js/453.523f2af0.chunk.js": "/safetyFirstPubMenu/static/js/453.523f2af0.chunk.js",
+    "static/media/sosaji.jpeg": "/safetyFirstPubMenu/static/media/sosaji.28c6967dd7af794808e9.jpeg",
+    "static/media/boilTwo.jpeg": "/safetyFirstPubMenu/static/media/boilTwo.00770d9633da3e4ccfe4.jpeg",
+    "static/media/sweetTomato.jpeg": "/safetyFirstPubMenu/static/media/sweetTomato.84a78f5cce4176fe677a.jpeg",
+    "static/media/friedModum.jpeg": "/safetyFirstPubMenu/static/media/friedModum.a3e9176422c9b0b00408.jpeg",
+    "static/media/eggtang.jpeg": "/safetyFirstPubMenu/static/media/eggtang.78f423b9ea0f0751b64b.jpeg",
+    "static/media/chadolsukju.jpeg": "/safetyFirstPubMenu/static/media/chadolsukju.34005546b90cbf94fc41.jpeg",
+    "static/media/gochugangbulgogi.jpeg": "/safetyFirstPubMenu/static/media/gochugangbulgogi.4ec40cf95ad55a5f86df.jpeg",
+    "static/media/boilling.jpeg": "/safetyFirstPubMenu/static/media/boilling.73de0b2fffa6119a711f.jpeg",
+    "static/media/bread.png": "/safetyFirstPubMenu/static/media/bread.86a07bf83c379a24a635.png",
+    "static/media/djji.jpeg": "/safetyFirstPubMenu/static/media/djji.5e139a557199477b01ca.jpeg",
+    "static/media/dongggaseKimchi.jpeg": "/safetyFirstPubMenu/static/media/dongggaseKimchi.d6330d9a505d59a8e19d.jpeg",
+    "static/media/grilbetter.jpeg": "/safetyFirstPubMenu/static/media/grilbetter.ea48ea4dddbe26d98075.jpeg",
+    "static/media/sulguk.jpeg": "/safetyFirstPubMenu/static/media/sulguk.372d901686714eb7ca79.jpeg",
+    "static/media/betterCrill.jpeg": "/safetyFirstPubMenu/static/media/betterCrill.cece82e4270cff1da26e.jpeg",
+    "static/media/chicken.jpeg": "/safetyFirstPubMenu/static/media/chicken.093d210d84f10fd1a1ce.jpeg",
+    "static/media/kimchijaeuk.jpeg": "/safetyFirstPubMenu/static/media/kimchijaeuk.be85f72db9a79f1451f4.jpeg",
     "static/media/logo22.png": "/safetyFirstPubMenu/static/media/logo22.b84cfcc94fa3e6f9fe36.png",
+    "static/media/mapadubu.jpeg": "/safetyFirstPubMenu/static/media/mapadubu.1c3878b52a5dcafb532f.jpeg",
+    "static/media/jjim.jpeg": "/safetyFirstPubMenu/static/media/jjim.8b2d72895cf83aa59973.jpeg",
+    "static/media/skin.jpeg": "/safetyFirstPubMenu/static/media/skin.070eceaf7ccbcff5f422.jpeg",
+    "static/media/chikentang.jpeg": "/safetyFirstPubMenu/static/media/chikentang.685cb14594d4577b8fcc.jpeg",
+    "static/media/kimchiudong.jpeg": "/safetyFirstPubMenu/static/media/kimchiudong.e6755dffc5f2016d9d23.jpeg",
+    "static/media/crill.jpeg": "/safetyFirstPubMenu/static/media/crill.a5799f36925d39acdeff.jpeg",
     "index.html": "/safetyFirstPubMenu/index.html",
-    "main.e945ba00.css.map": "/safetyFirstPubMenu/static/css/main.e945ba00.css.map",
-    "main.c7a89aec.js.map": "/safetyFirstPubMenu/static/js/main.c7a89aec.js.map",
+    "main.a409a3ca.css.map": "/safetyFirstPubMenu/static/css/main.a409a3ca.css.map",
+    "main.cfc07d38.js.map": "/safetyFirstPubMenu/static/js/main.cfc07d38.js.map",
     "453.523f2af0.chunk.js.map": "/safetyFirstPubMenu/static/js/453.523f2af0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e945ba00.css",
-    "static/js/main.c7a89aec.js"
+    "static/css/main.a409a3ca.css",
+    "static/js/main.cfc07d38.js"
   ]
 }
